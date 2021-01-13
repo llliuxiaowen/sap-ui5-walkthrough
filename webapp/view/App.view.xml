@@ -5,12 +5,12 @@
       <App class="myAppDemoWT">
          <pages>
             <Page title="{i18n>homePageTitle}">
+               <headerContent>
+                  <Button icon="sap-icon://hello-world" press=".onOpenDialog"/>
+               </headerContent>
+
                <content>
-                  <Panel headerText="{i18n>helloPanelTitle}" class="sapUiResponsiveMargin" width="auto">
-                     <content>
-                        <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
-                     </content>
-                  </Panel>
+                  <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
                </content>
             </Page>
          </pages>
