@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx ui5 serve"
+    "start": "npx ui5 serve",
+    "proxy": "npx http-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ui5/cli": "^2.7.1"
+    "@ui5/cli": "^2.7.1",
+    "http-server": "^0.12.3"
   },
   "devDependencies": {},
   "keywords": []
